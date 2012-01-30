@@ -1,0 +1,12 @@
+A utility, written in Python, that will convert a comma separated file to a text file.
+It takes 2 arguments: The full path to the current csv file, and the full path where the text file should be created.
+
+- csvToText.py, test_csvToText.py
+
+- Uses Python version 3.2, but should work with older versions.
+
+- A test case has been included. Remember to run this first when you add new features!
+
+- You will need to change the test path in test_csvToText.py to match wherever you are testing from.
+
+- Created by Rob Graziano
