@@ -11,7 +11,8 @@ class Test(unittest.TestCase):
 
 
     def setUp(self):
-        self.path = "/Users/rob/Documents/workspace/csvToText/testdir"
+        self.current_dir = os.getcwd()
+        self.path = os.path.join(self.current_dir, "tmp")
         os.mkdir(self.path)
         self.csv_file_name = "testFile.csv"
         self.text_file_name = "testFile.txt"
